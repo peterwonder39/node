@@ -10,7 +10,7 @@ const cors = require("cors")
 app.use(cors()) 
 dotenv.config()
 const customerRouter = require("./routes/user.route")
-app.use("/",customerRouter)
+// app.use("/",customerRouter)
 
 // Set your bodyparser
 // In Node.js, when someone sends data to your server (for example, filling a form and clicking submit), that data doesn’t automatically come as a nice object. Instead, it usually comes in a raw format like a string or buffer.
